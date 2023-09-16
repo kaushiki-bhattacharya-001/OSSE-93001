@@ -3,7 +3,7 @@ import java.io.*;
 public class PalindromeApplication {
   static boolean checkPalindrome(int num) {
     int temp = num, sum = 0;
-    if(num<10){
+    if(num < 10){
       return true;
     }    
     while (num > 0) {    
